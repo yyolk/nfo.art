@@ -8,13 +8,10 @@ Abstract:
     treat them as the same
 
 """
-from typing import List
-
-# from enum import Enum, auto
-
 
 class Piece:
     url: str
+    created_by: Artist | Collective
     ...
 
 
@@ -33,7 +30,7 @@ Author = Artist
 
 
 class Collective:
-    artists: List[Artist]
+    artists: list[Artist]
     ...
 
 
