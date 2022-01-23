@@ -12,7 +12,7 @@ def _loads_nfo_from_toml(s):
 
 
 def _seek_to_EOF(fp):
-    while (file_eof := r.read(1)) != EOF_BYTE:
+    while r.read(1) != EOF_BYTE:
         pass
 
 def _regex_split_EOF(fp):

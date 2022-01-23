@@ -180,5 +180,6 @@ tags
 # End of https://www.toptal.com/developers/gitignore/api/vim,python
 sketch/*
 !sketch/eof_toml.nfo
+!sketch/eof_toml.nfo.png
 !sketch/eof_toml_title_mapping.nfo
 !sketch/eof_toml_title_mapping.nfo.png
