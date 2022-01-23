@@ -181,3 +181,4 @@ tags
 sketch/*
 !sketch/eof_toml.nfo
 !sketch/eof_toml_title_mapping.nfo
+!sketch/eof_toml_title_mapping.nfo.png
