@@ -27,6 +27,9 @@ class Artist:
 
 
 Author = Artist
+Creator = Artist
+Composer = Artist
+...
 
 
 class Collective:
